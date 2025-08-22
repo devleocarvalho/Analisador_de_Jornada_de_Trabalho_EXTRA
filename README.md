@@ -1,57 +1,110 @@
-<h1 align="center">Analisador de Jornada de Trabalho</h1>
+<div align="center">
+<a href="https://hgysmhc4hnktm5svteurqg.streamlit.app/" target="_blank">
+<img src="https://via.placeholder.com/800x200.png?text=✨+ANALISADOR+DE+JORNADA+DE+TRABALHO+EXTRA+✨" alt="Banner do Projeto">
+</a>
+<h1>✨ Analisador de Jornada de Trabalho Extra ✨</h1>
+<p>📊 Analise e calcule suas horas extras de forma fácil e intuitiva!</p>
+</div>
 
-<p align="center">
-Uma ferramenta online para calcular horas extras, adicional noturno e analisar relatórios de ponto de forma rápida e precisa.
-</p>
+🌟 Sobre o Projeto
+Este é um projeto Python construído com o poderoso framework Streamlit, dedicado a simplificar a análise da sua jornada de trabalho. Com uma interface amigável, você pode calcular horas extras, adicional noturno e obter insights valiosos a partir dos seus registros de ponto. Ideal para profissionais, advogados e qualquer pessoa que busca clareza em seus cálculos trabalhistas.
 
-🚀 Sobre o Projeto
-Este projeto é uma calculadora trabalhista desenvolvida em Python com a interface web do Streamlit. Ele foi criado para automatizar a análise de registros de ponto, fornecendo um resumo financeiro e um relatório detalhado. Com ele, é possível processar dados inseridos manualmente ou extraídos de diversos tipos de arquivos.
+🚀 Funcionalidades que Você Vai Adorar:
+Entrada de Dados Versátil:
 
-✨ Funcionalidades
-Entrada de Dados Flexível: Insira os registros de ponto manualmente ou faça upload de arquivos para extração automática de texto.
+✍️ Digite seus registros manualmente.
 
-Compatibilidade de Arquivos: Analisa dados de arquivos de texto (.txt), Word (.docx), PDF (.pdf) e imagens (.png, .jpg, .jpeg).
+📂 Faça upload de arquivos: .txt, .docx, .pdf.
 
-Cálculos Inteligentes: Realiza o cálculo de horas extras (normais e atípicas), adicional noturno e custo total.
+📸 Importe imagens de ponto (.png, .jpg, .jpeg) com reconhecimento de texto (OCR).
 
-Filtros Avançados: Filtre o relatório por data, dias da semana ou tipo de ocorrência.
+Análise Detalhada:
 
-Exportação em Excel: Gere e baixe um relatório completo em formato .xlsx.
+⏱️ Cálculo automático de horas extras (normais e em dias atípicos).
 
-💻 Tecnologias Utilizadas
-Python: A linguagem de programação principal.
+🌙 Identificação e cálculo do adicional noturno.
 
-Streamlit: O framework que cria a interface web interativa.
+💰 Resumo financeiro do seu tempo de trabalho.
 
-Pandas: Essencial para a manipulação e análise dos dados.
+Filtragem Inteligente:
 
-Outras Bibliotecas: openpyxl, PyPDF2, python-docx, Pillow e pytesseract.
+🗓️ Filtre seus dados por datas específicas.
 
-⚙️ Como Executar Localmente
-Siga estes passos para ter a aplicação rodando na sua máquina:
+📅 Analise seus sábados e domingos trabalhados.
 
-Clone o repositório e navegue até a pasta do projeto.
+⚠️ Identifique inconsistências e dias atípicos.
 
-Instale todas as dependências do requirements.txt:
+Relatórios Poderosos:
 
-Bash
+📊 Visualize uma tabela clara e detalhada da sua jornada.
 
+💾 Exporte seus relatórios para o Excel (.xlsx) com um clique.
+
+🛠️ Construído com as Melhores Ferramentas:
+🐍 Python: A base da nossa poderosa ferramenta.
+
+<img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" alt="Streamlit" width="20"> Streamlit: Para uma interface web interativa e linda.
+
+Pandas: Manipulação e análise de dados de forma eficiente.
+
+Bibliotecas de Leitura:
+
+PyPDF2: Leitura de arquivos PDF.
+
+python-docx: Leitura de arquivos Word.
+
+Pillow: Manipulação de imagens.
+
+pytesseract: Reconhecimento Óptico de Caracteres (OCR).
+
+openpyxl: Criação e manipulação de arquivos Excel.
+
+🕹️ Primeiros Passos (Execução Local):
+Clone o Repositório:
+```bash
+git clone https://github.com/devleocarvalho/Analisador_de_Jornada_de_Trabalho_EXTRA.git
+cd Analisador_de_Jornada_de_Trabalho_EXTRA
+```
+
+Crie um Ambiente Virtual (Recomendado):
+```bash
+python -m venv venv
+source venv/bin/activate   # No macOS/Linux
+.\venv\Scripts\activate  # No Windows
+```
+
+Instale as Dependências:
+```bash
 pip install -r requirements.txt
-Inicie a aplicação com o Streamlit:
+```
 
-Bash
-
+Execute a Aplicação:
+```bash
 streamlit run app.py
-☁️ Deploy na Nuvem (Streamlit Community Cloud)
-A melhor forma de hospedar esta aplicação é usando a plataforma Streamlit Community Cloud, que é gratuita e otimizada para projetos como o seu.
+```
+Abra o link que aparecer no seu navegador!
 
-Garanta que os arquivos app.py, requirements.txt e sua lógica de cálculo estão no seu repositório do GitHub.
+🚀 Levando para a Nuvem (Streamlit Cloud):
+A forma mais fácil e gratuita de compartilhar esta ferramenta é com o Streamlit Community Cloud:
 
-Acesse share.streamlit.io e faça login com sua conta do GitHub.
+Certifique-se de que seu código está no GitHub.
 
-Clique em "New app", selecione o repositório do seu projeto e clique em "Deploy".
+Vá para https://share.streamlit.io/ e faça login.
 
-A plataforma fará todo o trabalho de deploy para você, e sua calculadora estará online em poucos minutos.
+Clique em "New app".
 
-📄 Licença
-Este projeto está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo LICENSE.md na raiz do repositório.
+Selecione seu repositório (devleocarvalho/Analisador_de_Jornada_de_Trabalho_EXTRA).
+
+Garanta que o "Main file path" esteja como app.py.
+
+Clique em "Deploy!" e pronto! Sua calculadora estará online.
+
+📜 Licença
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
+
+🧑‍💻 Contribuições
+Sinta-se à vontade para contribuir com melhorias, novas funcionalidades ou correções de bugs! Basta criar um fork do repositório e enviar um pull request.
+
+<div align="center">
+Feito com ❤️ por devleocarvalho
+</div>
