@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=CALCULADORA+TRABALHISTA" alt="Calculadora Trabalhista">
-</p>
-
 <h1 align="center">✨ Analisador de Jornada de Trabalho ✨</h1>
 
 <p align="center">
@@ -50,3 +46,4 @@ O projeto já está configurado para um deploy fácil no **Vercel**. Certifique-
 ### 📄 Licença
 
 Este projeto está licenciado sob a Licença **MIT**. Veja o arquivo `LICENSE.md` para mais detalhes.
+
