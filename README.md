@@ -1,7 +1,5 @@
 <div align="center">
 <a href="https://hgysmhc4hnktm5svteurqg.streamlit.app/" target="_blank">
-<img src="https://via.placeholder.com/800x200.png?text=✨+ANALISADOR+DE+JORNADA+DE+TRABALHO+EXTRA+✨" alt="Banner do Projeto">
-</a>
 <h1>✨ Analisador de Jornada de Trabalho Extra ✨</h1>
 <p>📊 Analise e calcule suas horas extras de forma fácil e intuitiva!</p>
 </div>
@@ -84,21 +82,6 @@ streamlit run app.py
 ```
 Abra o link que aparecer no seu navegador!
 
-🚀 Levando para a Nuvem (Streamlit Cloud):
-A forma mais fácil e gratuita de compartilhar esta ferramenta é com o Streamlit Community Cloud:
-
-Certifique-se de que seu código está no GitHub.
-
-Vá para https://share.streamlit.io/ e faça login.
-
-Clique em "New app".
-
-Selecione seu repositório (devleocarvalho/Analisador_de_Jornada_de_Trabalho_EXTRA).
-
-Garanta que o "Main file path" esteja como app.py.
-
-Clique em "Deploy!" e pronto! Sua calculadora estará online.
-
 📜 Licença
 Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
 
@@ -108,3 +91,4 @@ Sinta-se à vontade para contribuir com melhorias, novas funcionalidades ou corr
 <div align="center">
 Feito com ❤️ por devleocarvalho
 </div>
+
